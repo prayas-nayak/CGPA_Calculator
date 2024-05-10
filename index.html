@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGPA Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>CGPA Calculator</h2>
+    <form id="cgpaForm">
+        <label for="mathGrade">Math Grade:</label>
+        <input type="text" id="mathGrade" name="mathGrade" required>
+
+        <label for="cdsGrade">CDS/EM Grade:</label>
+        <input type="text" id="cdsGrade" name="cdsGrade" required>
+
+        <label for="phyGrade">Phy/Chem Grade:</label>
+        <input type="text" id="phyGrade" name="phyGrade" required>
+
+        <label for="bmpGrade">BCE/BMP Grade:</label>
+        <input type="text" id="bmpGrade" name="bmpGrade" required>
+
+        <label for="beeGrade">BEE/BE Grade:</label>
+        <input type="text" id="beeGrade" name="beeGrade" required>
+
+        <label for="etwGrade">ETW/UHV Grade:</label>
+        <input type="text" id="etwGrade" name="etwGrade" required>
+
+        <label for="beelabGrade">BEE/BE Lab Grade:</label>
+        <input type="text" id="beelabGrade" name="beelabGrade" required>
+
+        <label for="cdslabGrade">CDS/EGD Lab Grade:</label>
+        <input type="text" id="cdslabGrade" name="cdslabGrade" required>
+
+        <label for="etwlabGrade">English/WDM Lab Grade:</label>
+        <input type="text" id="etwlabGrade" name="etwlabGrade" required>
+
+        <label for="phylabGrade">Phy/Chem Lab Grade:</label>
+        <input type="text" id="phylabGrade" name="phylabGrade" required>
+
+        <label for="yogaGrade">Yoga/Sports Grade:</label>
+        <input type="text" id="yogaGrade" name="yogaGrade" required>
+
+        <button type="button" onclick="calculateCGPA()">Calculate CGPA</button>
+    </form>
+
+    <div id="result"></div>
+
+    <div class="trademark">Made By Prayas with ❤️</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
